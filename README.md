@@ -3,8 +3,8 @@
 
 ## TODO:
 ## - Backed:
-- [ ] Configurar projeto
-- [ ] Rotas
+- [x] Configurar projeto
+- [x] Rotas
 - [ ] Controler Grupos 
 - [ ] Service Banco de Dados
 - [ ] Service Geolocalização
