@@ -7,6 +7,7 @@
 - [ ] Rotas
 - [ ] Controler Grupos 
 - [ ] Service Banco de Dados
+- [ ] Service Geolocalização
 - [ ] Classe Grupo
   - [ ] Nome
   - [ ] Categoria
@@ -23,6 +24,7 @@
 
 ## - FrontEnd:
 - [ ] Configurar projeto
+- [ ] Pedir Geolocalização
 - [ ] Lista de grupos - card?
 - [ ] Titulo
 - [ ] Logo
