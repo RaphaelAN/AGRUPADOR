@@ -1,0 +1,26 @@
+version: "3.7"
+
+services:
+    database:
+        image: postgis/postgis
+        container_name: database-agrupador
+        restart: always
+        ports: 
+            - 5432:5432
+        environment: 
+            - POSTGRES_USER=docker
+            - POSTGRES_PASSWORD=agrupador
+            - POSTGRES_DB=agrupador
+        volumes:
+            - pgdata:/data/postgres
+    backend:
+        build: ./backend
+        container_name: backend-agrupador
+        ports:
+            - 3333:3333
+        volumes:
+            - ./backend:/usr/app
+
+volumes: 
+    pgdata:
+        driver: local

@@ -5,10 +5,10 @@
 ## - Backed:
 - [x] Configurar projeto
 - [x] Rotas
-- [ ] Controler Grupos 
-- [ ] Service Banco de Dados
-- [ ] Service Geolocalização
-- [ ] Classe Grupo
+- [x] Config BD - QueryBuilder Knex
+- [ ] Controler Grupos
+- [x] ~~Service Geolocalização~~ tratado no bd com PostGis
+- [ ] Schema Grupo
   - [ ] Nome
   - [ ] Categoria
   - [ ] Descrição
