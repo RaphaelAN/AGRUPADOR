@@ -5,7 +5,7 @@ import configs from "../../knexfile";
 
 const config = process.env.NODE_ENV == 'test' ? configs.test : configs.development
 
-const db = knex(config)
+const db = knex(configs.development)
 
 const st = KnexPostgis(db)
 

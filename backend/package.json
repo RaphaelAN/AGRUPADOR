@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node-dev --inspect --transpile-only --poll --ignore-watch node_modules --respawn src/server.ts"
+    "dev": "ts-node-dev --inspect=0.0.0.0:9229 --transpile-only --poll --ignore-watch node_modules --respawn src/server.ts",
+    "start-debug": "node --inspect=0.0.0.0 server.js" 
   },
   "keywords": [],
   "author": "",

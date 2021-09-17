@@ -1,11 +1,13 @@
 import { Router } from "express";
-import GroupController from "../controllers/GroupController";
+import GroupControler from "../controllers/GroupControler"
 
 
 const routes = Router();
 
-routes.get('/', GroupController.getGroups);
-routes.post('/', GroupController.createGroup);
+
+routes.get('/', GroupControler.getGroups);
+routes.post('/', GroupControler.createGroup);
+
 
 
 export default routes;

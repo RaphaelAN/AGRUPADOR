@@ -11,4 +11,7 @@ COPY . .
 
 EXPOSE ${PORT}
 
+#DEBUG CONFIG
+EXPOSE 9229
+
 CMD ["npm", "run", "dev"]

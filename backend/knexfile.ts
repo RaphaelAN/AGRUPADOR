@@ -13,7 +13,8 @@ const configs: IKnexConfig = {
     connection: {
       database: "agrupador",
       user: "docker",
-      password: "agrupador"
+      password: "agrupador",
+      host: "host.docker.internal"
     },
     pool: {
       min: 2,
