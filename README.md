@@ -6,13 +6,13 @@
 - [x] Configurar projeto
 - [x] Rotas
 - [x] Config BD - QueryBuilder Knex
-- [ ] Controler Grupos
+- [x] Controler Grupos
 - [x] ~~Service Geolocalização~~ tratado no bd com PostGis
-- [ ] Schema Grupo
-  - [ ] Nome
-  - [ ] Categoria
-  - [ ] Descrição
-  - [ ] Links (wpp, telegram, fb?)
+- [x] Schema Grupo
+  - [x] Nome
+  - [x] Categoria
+  - [x] Descrição
+  - [x] Links (wpp, telegram, fb?)
 
 ## - Testes:
 - [ ] Rotas
